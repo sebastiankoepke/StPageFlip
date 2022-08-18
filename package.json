@@ -1,18 +1,18 @@
 {
-  "name": "page-flip",
+  "name": "@sebastiankoepke/page-flip",
   "version": "2.0.7",
   "main": "dist/js/page-flip.browser.js",
   "browser": "dist/js/page-flip.browser.js",
   "author": "oleg.litovski9@gmail.com",
   "license": "MIT",
+  "private": false,
   "description": "Powerful, simple and flexible JS Library for creating realistic and beautiful page turning effect",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Nodlik/StPageFlip.git"
+    "url": "https://github.com/sebastiankoepke/StPageFlip"
   },
   "publishConfig": {},
-  "homepage": "https://nodlik.github.io/StPageFlip/",
-  "dependencies": {},
+  "homepage": "https://github.com/sebastiankoepke/StPageFlip",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.33.0",
     "@typescript-eslint/parser": "^2.33.0",

@@ -270,7 +270,7 @@ export class Flip {
 
         const y = this.calc.getCorner() === FlipCorner.BOTTOM ? rect.height : 0;
 
-        if (pos.x <= 0) this.animateFlippingTo(pos, { x: -rect.pageWidth, y }, true);
+        if (pos.x <= 100) this.animateFlippingTo(pos, { x: -rect.pageWidth, y }, true);
         else this.animateFlippingTo(pos, { x: rect.pageWidth, y }, false);
     }
 
