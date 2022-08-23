@@ -122,7 +122,7 @@ export class Flip {
         const rect = this.getBoundsRect();
 
         // Find the direction of flipping
-        const direction = this.getDirectionByPoint(bookPos);
+        const direction = 0;
 
         // Find the active corner
         const flipCorner = FlipCorner.BOTTOM;
