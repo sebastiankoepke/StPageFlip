@@ -135,6 +135,8 @@ export class Flip {
 
             // In landscape mode, needed to set the density  of the next page to the same as that of the flipped
             if (this.render.getOrientation() === Orientation.LANDSCAPE) {
+                // eslint-disable-next-line @typescript-eslint/ban-ts-ignore
+                // @ts-ignore
                 if (direction === FlipDirection.BACK) {
                     const nextPage = this.app.getPageCollection().nextBy(this.flippingPage);
 
