@@ -125,7 +125,7 @@ export class Flip {
         const direction = this.getDirectionByPoint(bookPos);
 
         // Find the active corner
-        const flipCorner = bookPos.y >= rect.height / 2 ? FlipCorner.BOTTOM : FlipCorner.TOP;
+        const flipCorner = FlipCorner.BOTTOM;
 
         if (!this.checkDirection(direction)) return false;
 
